@@ -1,2 +1,2 @@
-# super-umbrella
-Coding Test Source
+# 코딩테스트 소스 저장소
+
