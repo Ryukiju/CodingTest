@@ -8,11 +8,8 @@ class Solution {
         	if(park[i].indexOf("S")>=0) {
         		curX = i;
         		curY = park[i].indexOf("S");
-        		System.out.println("find Start");
         	}
         }
-        System.out.println("startX :"+curX);
-        System.out.println("startY :"+curY);
         
         for(int i=0; i<routes.length;i++) {
         	String dir = routes[i].split(" ")[0];
@@ -68,8 +65,6 @@ class Solution {
         	}
         }
 
-        System.out.println("moveX :"+curX);
-        System.out.println("moveY :"+curY);
         answer[0] = curX;
         answer[1] = curY;
         return answer;
