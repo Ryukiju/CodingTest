@@ -4,11 +4,11 @@ class Solution {
     public int solution(String s) {
         int answer = 0;
 
-        int same = 1;
+        int same = 0;
         int diff = 0;
         
-        char first = s.charAt(0);
-        for(int i=1; i<s.length();i++) {
+        Character first=null;
+        for(int i=0; i<s.length();i++) {
 
         	if(same==diff) {
         		answer++;
@@ -21,8 +21,6 @@ class Solution {
         		diff++;
         	}
         }
-        
-        System.out.println(answer);
-        return answer+1;
+        return answer;
     }
 }
