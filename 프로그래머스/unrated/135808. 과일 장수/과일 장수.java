@@ -12,7 +12,6 @@ class Solution {
         for(int i=1; i<=scoreList.size()/m;i++) {
         	answer+=scoreList.get(scoreList.size()-m*i)*m;
         }
-        System.out.println(answer);
         return answer;
     }
 }
