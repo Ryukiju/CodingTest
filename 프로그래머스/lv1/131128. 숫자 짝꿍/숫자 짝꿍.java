@@ -31,7 +31,6 @@ class Solution {
         }else {
         	return "-1";
         }
-
         
         return answer.toString();
     }
