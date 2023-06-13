@@ -39,8 +39,8 @@ class Solution {
         	}
         	banLists.add(banList);
         }
-        
-//        System.out.println(banLists);
+        //각 baned_id에 올수있는 user_id 리스트
+       // System.out.println(banLists);
 
 
         Queue<List<String>> queue = new LinkedList<>();
@@ -81,7 +81,7 @@ class Solution {
         		resultSet.add(set);
         	}
         }
-//        System.out.println(resultSet);
+       // System.out.println(resultSet);
         return resultSet.size();
     }
 }
