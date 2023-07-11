@@ -64,13 +64,16 @@ class Solution {
         }
         
         Music q = null;
+        //정답이 있을경우
         if(!answerQ.isEmpty()) {
         	q=answerQ.poll();
         	answer = q.musicName;
+        //정답이 없을경우
         }else {
         	return "(None)";
         }
 
+        //정답 Queue중 시간이 긴거 찾기
         while(!answerQ.isEmpty()) {
         	Music ele = answerQ.poll();
         	if(ele.term>q.term) {
